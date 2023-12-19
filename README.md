@@ -5,7 +5,7 @@ This repository contains companion code to the proposed JuliaCon 2024 talk **Ine
 The purpose of the proposed talk is to present a novel statistical framework for analyzing the distributional impacts of social science experiments and policy interventions. I investigate how to bring notions of inequality aversion into the analysis of randomized controlled trials and show, using field data from Meager 2022's Bayesian meta study (https://www.aeaweb.org/articles?id=10.1257/aer.20181811) on the effect of microcredit interventions on consumption from five countries, how my methods compare to the standard analysis based on differences in means.
 
 ## Contents of the respository
-* The `simulating_and_analyzing_using_Turing.jl` file tests the methodology I develop on simulated data using Julia 1.9 and Turing 0.29.
+* The `simulating_and_analyzing_using_Turing.jl` file tests aspects of the methodology I develop on simulated data using Julia 1.9 and Turing 0.29.
 
 * The `analyzing_imported_MCMC_draws.jl` file takes Meager 2022's   MCMC output (https://github.com/rmeager/aggregating-dist-TEs/blob/main/output/microcredit_consumption_lognormal_tailored_hierarchical_pdf_output_5000_iters.RData) and uses it to provide *egalitarian equivalent treatment effect* estimates for the microcredit interventions in the five countries.
 
