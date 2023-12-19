@@ -13,6 +13,6 @@ The notion of *egalitarian equivalent treatment effect* is the main conceptual i
 
 In practice, one can obtain the egalitarian equivalent of an outcome distribution by multiplying the mean outcome in the distribution by (1-**A**), where **A** is a suitably defined *Atkinson inequality index* (https://en.wikipedia.org/wiki/Atkinson_index). Any such index is equal to zero when there is no inequality and is equal to 1 in a perfectly unequal society. 
 
-When evaluating treatments from this point of view one can therefore decompose the changes in welfare given a certain treatment or policy into the changes that are due to the effects of the treatment on the mean outcome, and the changes that are due to the effect of the treatment on the inequality of the distribution of outcomes in the population.
+When evaluating treatments from this point of view, one can therefore decompose the changes in welfare given a certain treatment or policy into the changes that are due to the effects of the treatment on the mean outcome, and the changes that are due to the effect of the treatment on the inequality of the distribution of outcomes in the population.
 
 
