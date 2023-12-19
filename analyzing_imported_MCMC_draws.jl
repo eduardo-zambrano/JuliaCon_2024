@@ -1,7 +1,7 @@
 using Statistics, DataFrames, CairoMakie, CSV
 
 # Importing Meager's MCMC draws
-df = CSV.read("meager_mcmc_draws.csv", DataFrame)
+df = CSV.read("imported_mcmc_draws.csv", DataFrame)
 
 """Characteristics of the Social Wefare problem"""
 g = .5 # The 'protected income' in the reference two-person problem' (as a fraction of income)
@@ -245,4 +245,4 @@ h
 save("imported_multiple_sites.png", h)
 
 
-CSV.write("MCMC_results_meager_expanded.csv", df)
+CSV.write("MCMC_imported_expanded.csv", df)
