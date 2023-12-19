@@ -1,0 +1,9 @@
+This is companion code to the proposed JuliaCon 2024 talk **Inequality-Sensitive Treatment Effect Estimation in Julia.**
+
+The purpose of the proposed talk is to present a novel statistical framework for analyzing the distributional impacts of social science experiments and policy interventions. I investigate how to bring notions of inequality aversion into the analysis of randomized controlled trials and show, using experimental data from Meager 2022's meta study on the effect of microcredit interventions on consumption from five countries, how my methods compare to the standard comparisons based on differences in means.
+
+The `simulating_and_analyzing_using_Turing.jl` file tests the methodology on simulated data using Julia 1.9 and Turing 0.29.
+
+The `analyzing_imported_MCMC_draws.jl` file takes Meager 2022's MCMC output and uses it to provide `egalitarian equivalent treatment effect` estimates for the microcredit interventions in the five countries.
+
+For the first four countries in the table, mean consumption increases with the intervention, but the effect on the egalitarian equivalent of consumption is negative. For the fifth country, the opposite takes place. In all these cases, one would reach very different conclusions as to what treatment to recommend once the effects of the treatments on the inequality of consumption are combined with the effects to main consumption. These reversals happen because the treatment effects on mean consumption that we observe are driven by large changes that take place at the top quantiles of the distribution of consumption, whereas the egalitarian equivalent treatment effect estimates are driven by small changes that take place at the bottom quantiles of the distribution of consumption. By design, the egalitarian equivalent treatment effects place greater emphasis on the consumption changes of the comparatively poorer individuals in each population, even if these changes are small.
