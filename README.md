@@ -2,7 +2,7 @@
 
 This repository contains companion code to the proposed JuliaCon 2024 talk **Inequality-Sensitive Treatment Effect Estimation in Julia.**
 
-The purpose of the proposed talk is to present a novel statistical framework for analyzing the distributional impacts of social science experiments and policy interventions. I investigate how to bring notions of inequality aversion into the analysis of randomized controlled trials and show, using experimental data from Meager 2022's Bayesian meta study (https://www.aeaweb.org/articles?id=10.1257/aer.20181811) on the effect of microcredit interventions on consumption from five countries, how my methods compare to the standard analysis based on differences in means.
+The purpose of the proposed talk is to present a novel statistical framework for analyzing the distributional impacts of social science experiments and policy interventions. I investigate how to bring notions of inequality aversion into the analysis of randomized controlled trials and show, using field data from Meager 2022's Bayesian meta study (https://www.aeaweb.org/articles?id=10.1257/aer.20181811) on the effect of microcredit interventions on consumption from five countries, how my methods compare to the standard analysis based on differences in means.
 
 ## Contents of the respository
 * The `simulating_and_analyzing_using_Turing.jl` file tests the methodology I develop on simulated data using Julia 1.9 and Turing 0.29.
